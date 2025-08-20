@@ -1,0 +1,59 @@
+/* Global styles for the APK Security Analyzer */
+
+/* Reset some browser defaults */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Additional utility styles */
+code {
+  background-color: #f1f5f9;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875em;
+  color: #374151;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Focus styles for accessibility */
+:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+button:focus,
+input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
